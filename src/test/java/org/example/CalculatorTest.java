@@ -15,7 +15,7 @@ public class CalculatorTest {
     // 基本运算测试
     @Test
     public void testAdd() {
-        Assert.assertEquals(calculator.add(2, 3), 5);
+        Assert.assertEquals(calculator.add(3, 4), 5);
         Assert.assertEquals(calculator.add(-1, 1), 0);
         Assert.assertEquals(calculator.add(0, 0), 0);
     }

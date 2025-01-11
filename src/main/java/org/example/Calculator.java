@@ -30,6 +30,9 @@ public class Calculator {
     }
 
     public int power(int base, int exponent) {
+//        if (base == 0 && exponent == 0) {
+//            throw new IllegalArgumentException("0的0次方不存在");
+//        }
         if (exponent < 0) {
             throw new IllegalArgumentException("指数不能为负数");
         }
